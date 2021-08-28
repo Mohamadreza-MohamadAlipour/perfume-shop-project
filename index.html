@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/colors/red.css" id='colorLink'>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <title>Document</title>
+
+</head>
+
+<body>
+
+    <div class="changeColor">
+        <span class='icon'><i class='fa fa-cog fa-spin'></i></span>
+        <h3>تغییر رنگ</h3>
+        <ul>
+            <li style="background-color: #d70d25;" title='red' onclick="change('./css/colors/red.css')"></li>
+            <li style="background-color: #0d47a1;" title='blue' onclick="change('./css/colors/blue.css')"></li>
+            <li style="background-color: #263238;" title='black' onclick="change('./css/colors/black.css')"></li>
+            <li style="background-color: #BF360C;" title='orange' onclick="change('./css/colors/orange.css')"></li>
+            <li style="background-color: #311B92;" title='purple' onclick="change('./css/colors/purple.css')"></li>
+        </ul>
+    </div>
+
+    <header class='fixed-top'>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark d-flex flex-row-reverse">
+                <a class="navbar-brand" href="#">PERFUME</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link active" href="#home">خانه <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="#about">درباره محصول</a>
+                        <a class="nav-item nav-link" href="#features">امکانات</a>
+                        <a class="nav-item nav-link" href="#products">محصولات</a>
+                        <a class="nav-item nav-link" href="#testimonial">نظرات مشتریان</a>
+                        <a class="nav-item nav-link" href="#faq">سوالات متداول</a>
+                        <a class="nav-item nav-link" href="#contact-us">تماس با ما</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <div class="row vh-100 align-items-center">
+                <div class="col-md-8">
+                    <div class="home-content text-center text-white pl-5">
+                        <h1 class='font-weight-bold mb-4'>ارائه بهترین محصولات</h1>
+                        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                            چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                            تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در
+                            شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها
+                            شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی
+                            ایجاد کرد.</p>
+                        <button class='btn home-btn mt-3'>با تخفیف بخرید 220 هزارتومان</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="home-img">
+                        <img src="./images/1.png" alt="" class='img-fluid'>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="about" class='section-padding'>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="about-content mb-5 mb-md-0">
+                        <div class="section-title mb-5">
+                            <h1 class='h6'>درباره محصول</h1>
+                            <h2 class='font-weight-bold'>برترین برند و با کیفیت ترین محصول</h2>
+                        </div>
+                        <p class='text-muted'>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
+                            طراحان گرافیک است.
+                            چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است</p>
+                        <ul class='list-unstyled mt-4'>
+                            <li class='mb-3'><i class='fa fa-check ml-2'></i> برترین برندها</li>
+                            <li class='mb-3'><i class='fa fa-check ml-2'></i> محبوب ترین برندهای روز دنیا</li>
+                            <li class='mb-3'><i class='fa fa-check ml-2'></i> خوش بوترین و ماندگارترین ها</li>
+                            <li class='mb-3'><i class='fa fa-check ml-2'></i> ارزان ترین و با کیفیت ترین ها</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="about-img text-center">
+                        <img src="./images/2.png" alt="" class='img-fluid'>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class='section-padding'>
+        <div class="container">
+            <div class="section-title text-center">
+                <h1 class='h6'>امکانات و خدمات</h1>
+                <h2 class='font-weight-bold'>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم</h2>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="features-item bg-white p-4 shadow text-center rounded mb-4">
+                        <span class="feature-icon">
+                            <i class='fa fa-headset'></i>
+                        </span>
+                        <h3 class='h4 font-weight-bold mt-4 mb-3'>مشاوره رایگان</h3>
+                        <p class='text-muted'>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
+                            طراحان گرافیک است.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="features-item bg-white p-4 shadow text-center rounded mb-4">
+                        <span class="feature-icon">
+                            <i class='fa fa-shopping-cart'></i>
+                        </span>
+                        <h3 class='h4 font-weight-bold mt-4 mb-3'>مشاوره رایگان</h3>
+                        <p class='text-muted'>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
+                            طراحان گرافیک است.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="features-item bg-white p-4 shadow text-center rounded mb-4">
+                        <span class="feature-icon">
+                            <i class='fa fa-tags'></i>
+                        </span>
+                        <h3 class='h4 font-weight-bold mt-4 mb-3'>مشاوره رایگان</h3>
+                        <p class='text-muted'>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
+                            طراحان گرافیک است.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="features-item bg-white p-4 shadow text-center rounded mb-4">
+                        <span class="feature-icon">
+                            <i class='fa fa-truck-moving'></i>
+                        </span>
+                        <h3 class='h4 font-weight-bold mt-4 mb-3'>مشاوره رایگان</h3>
+                        <p class='text-muted'>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
+                            طراحان گرافیک است.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="features-item bg-white p-4 shadow text-center rounded mb-4">
+                        <span class="feature-icon">
+                            <i class='fa fa-bong'></i>
+                        </span>
+                        <h3 class='h4 font-weight-bold mt-4 mb-3'>مشاوره رایگان</h3>
+                        <p class='text-muted'>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
+                            طراحان گرافیک است.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="features-item bg-white p-4 shadow text-center rounded mb-4">
+                        <span class="feature-icon">
+                            <i class='fa fa-money-check-alt'></i>
+                        </span>
+                        <h3 class='h4 font-weight-bold mt-4 mb-3'>مشاوره رایگان</h3>
+                        <p class='text-muted'>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
+                            طراحان گرافیک است.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class='section-padding'>
+        <div class="container">
+            <div class="section-title mb-5 text-center">
+                <h1 class='h6'>محصولات</h1>
+                <h2 class='font-weight-bold'>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم</h2>
+            </div>
+            <div class="row">
+                <div class="owl-carousel owl-theme" id='product-carousel'>
+                    <div class="col-lg-12">
+                        <div class="products-item">
+                            <div class="product-img">
+                                <img src="./images/product/1.jpg" alt="" class='img-fluid'>
+                                <div class="product-overlay">
+                                    <a href="#">بازدید</a>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <div class="product-price">
+                                    <span class='new-price'>310000</span>
+                                    <span class='prev-price'>340000</span>
+                                </div>
+                                <div class="product-name text-center">
+                                    ادکلن اول
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="products-item">
+                            <div class="product-img">
+                                <img src="./images/product/2.jpg" alt="" class='img-fluid'>
+                                <div class="product-overlay">
+                                    <a href="#">بازدید</a>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <div class="product-price">
+                                    <span class='new-price'>310000</span>
+                                    <span class='prev-price'>340000</span>
+                                </div>
+                                <div class="product-name text-center">
+                                    ادکلن دوم
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="products-item">
+                            <div class="product-img">
+                                <img src="./images/product/6.jpg" alt="" class='img-fluid'>
+                                <div class="product-overlay">
+                                    <a href="#">بازدید</a>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <div class="product-price">
+                                    <span class='new-price'>310000</span>
+                                    <span class='prev-price'>340000</span>
+                                </div>
+                                <div class="product-name text-center">
+                                    ادکلن سوم
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="products-item">
+                            <div class="product-img">
+                                <img src="./images/product/4.jpg" alt="" class='img-fluid'>
+                                <div class="product-overlay">
+                                    <a href="#">بازدید</a>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <div class="product-price">
+                                    <span class='new-price'>310000</span>
+                                    <span class='prev-price'>340000</span>
+                                </div>
+                                <div class="product-name text-center">
+                                    ادکلن چهارم
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="products-item">
+                            <div class="product-img">
+                                <img src="./images/product/5.jpg" alt="" class='img-fluid'>
+                                <div class="product-overlay">
+                                    <a href="#">بازدید</a>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <div class="product-price">
+                                    <span class='new-price'>310000</span>
+                                    <span class='prev-price'>340000</span>
+                                </div>
+                                <div class="product-name text-center">
+                                    ادکلن پنجم
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="products-item">
+                            <div class="product-img">
+                                <img src="./images/product/6.jpg" alt="" class='img-fluid'>
+                                <div class="product-overlay">
+                                    <a href="#">بازدید</a>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <div class="product-price">
+                                    <span class='new-price'>310000</span>
+                                    <span class='prev-price'>340000</span>
+                                </div>
+                                <div class="product-name text-center">
+                                    ادکلن ششم
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="products-item">
+                            <div class="product-img">
+                                <img src="./images/product/7.jpg" alt="" class='img-fluid'>
+                                <div class="product-overlay">
+                                    <a href="#">بازدید</a>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <div class="product-price">
+                                    <span class='new-price'>310000</span>
+                                    <span class='prev-price'>340000</span>
+                                </div>
+                                <div class="product-name text-center">
+                                    ادکلن هفتم
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonial" class='section-padding'>
+        <div class="container">
+            <div class="section-title mb-5 text-center">
+                <h1 class='h6'>نظرات مشتریان</h1>
+                <h2 class='font-weight-bold text-white'>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم</h2>
+            </div>
+
+            <div class="row">
+                <div class="owl-carousel owl-theme" id='testi-carousel'>
+                    <div class="col-lg-12">
+                        <div class="testi-item bg-white p-3 rounded">
+                            <div class="testi-desc mb-3">
+                                <div class="testi-comment pb-2 text-muted">
+                                    <i class='fa fa-quote-right'></i>
+                                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                                    گرافیک
+                                    است.لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                                    گرافیک
+                                    است.
+                                    <i class='fa fa-quote-left'></i>
+                                </div>
+                                <div class="comment-stars">
+                                    <i class='fa fa-star-half'></i>
+                                    <i class='fa fa-star'></i>
+                                    <i class='fa fa-star'></i>
+                                    <i class='fa fa-star'></i>
+                                </div>
+                            </div>
+                            <div class="testi-info d-flex align-items-center">
+                                <div class="testi-info-img">
+                                    <img src="./images/tetimonial/1.jpg" alt=""
+                                        class='rounded-circle img-fluid img-thumbnail'>
+                                </div>
+                                <div class="testi-info-desc mr-3">
+                                    <h5>رضا احمدی</h5>
+                                    <p class='text-muted'>من برنامه نویس وب هستم</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="testi-item bg-white p-3 rounded">
+                            <div class="testi-desc mb-3">
+                                <div class="testi-comment pb-2 text-muted">
+                                    <i class='fa fa-quote-right'></i>
+                                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                                    گرافیک
+                                    است.لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                                    گرافیک
+                                    است.
+                                    <i class='fa fa-quote-left'></i>
+                                </div>
+                                <div class="comment-stars">
+                                    <i class='fa fa-star-half'></i>
+                                    <i class='fa fa-star'></i>
+                                    <i class='fa fa-star'></i>
+                                    <i class='fa fa-star'></i>
+                                </div>
+                            </div>
+                            <div class="testi-info d-flex align-items-center">
+                                <div class="testi-info-img">
+                                    <img src="./images/tetimonial/2.jpg" alt=""
+                                        class='rounded-circle img-fluid img-thumbnail'>
+                                </div>
+                                <div class="testi-info-desc mr-3">
+                                    <h5>میلاد طرلانی</h5>
+                                    <p class='text-muted'>من برنامه نویس وب هستم</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="testi-item bg-white p-3 rounded">
+                            <div class="testi-desc mb-3">
+                                <div class="testi-comment pb-2 text-muted">
+                                    <i class='fa fa-quote-right'></i>
+                                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                                    گرافیک
+                                    است.لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                                    گرافیک
+                                    است.
+                                    <i class='fa fa-quote-left'></i>
+                                </div>
+                                <div class="comment-stars">
+                                    <i class='fa fa-star-half'></i>
+                                    <i class='fa fa-star'></i>
+                                    <i class='fa fa-star'></i>
+                                    <i class='fa fa-star'></i>
+                                </div>
+                            </div>
+                            <div class="testi-info d-flex align-items-center">
+                                <div class="testi-info-img">
+                                    <img src="./images/tetimonial/3.jpg" alt=""
+                                        class='rounded-circle img-fluid img-thumbnail'>
+                                </div>
+                                <div class="testi-info-desc mr-3">
+                                    <h5>مرتضی پیرسرایی</h5>
+                                    <p class='text-muted'>من برنامه نویس وب هستم</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="testi-item bg-white p-3 rounded">
+                            <div class="testi-desc mb-3">
+                                <div class="testi-comment pb-2 text-muted">
+                                    <i class='fa fa-quote-right'></i>
+                                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                                    گرافیک
+                                    است.لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                                    گرافیک
+                                    است.
+                                    <i class='fa fa-quote-left'></i>
+                                </div>
+                                <div class="comment-stars">
+                                    <i class='fa fa-star-half'></i>
+                                    <i class='fa fa-star'></i>
+                                    <i class='fa fa-star'></i>
+                                    <i class='fa fa-star'></i>
+                                </div>
+                            </div>
+                            <div class="testi-info d-flex align-items-center">
+                                <div class="testi-info-img">
+                                    <img src="./images/tetimonial/4.jpg" alt=""
+                                        class='rounded-circle img-fluid img-thumbnail'>
+                                </div>
+                                <div class="testi-info-desc mr-3">
+                                    <h5>محمد اصغری</h5>
+                                    <p class='text-muted'>من برنامه نویس وب هستم</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="testi-item bg-white p-3 rounded">
+                            <div class="testi-desc mb-3">
+                                <div class="testi-comment pb-2 text-muted">
+                                    <i class='fa fa-quote-right'></i>
+                                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                                    گرافیک
+                                    است.لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                                    گرافیک
+                                    است.
+                                    <i class='fa fa-quote-left'></i>
+                                </div>
+                                <div class="comment-stars">
+                                    <i class='fa fa-star-half'></i>
+                                    <i class='fa fa-star'></i>
+                                    <i class='fa fa-star'></i>
+                                    <i class='fa fa-star'></i>
+                                </div>
+                            </div>
+                            <div class="testi-info d-flex align-items-center">
+                                <div class="testi-info-img">
+                                    <img src="./images/tetimonial/5.jpg" alt=""
+                                        class='rounded-circle img-fluid img-thumbnail'>
+                                </div>
+                                <div class="testi-info-desc mr-3">
+                                    <h5>اکبر نژادپور</h5>
+                                    <p class='text-muted'>من برنامه نویس وب هستم</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class='section-padding'>
+        <div class="container">
+            <div class="section-title mb-5 text-center">
+                <h1 class='h6'>سوالات متداول</h1>
+                <h2 class='font-weight-bold'>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم</h2>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="faq-item mb-5">
+                        <h4 class='h5 font-weight-bold mb-3'>چگونه میتوانم سفارش دهم؟</h4>
+                        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                            چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                            تکنولوژی
+                            مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="faq-item mb-5">
+                        <h4 class='h5 font-weight-bold mb-3'>چگونه میتوانم سفارش دهم؟</h4>
+                        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                            چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                            تکنولوژی
+                            مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="faq-item mb-5">
+                        <h4 class='h5 font-weight-bold mb-3'>چگونه میتوانم سفارش دهم؟</h4>
+                        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                            چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                            تکنولوژی
+                            مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="faq-item mb-5">
+                        <h4 class='h5 font-weight-bold mb-3'>چگونه میتوانم سفارش دهم؟</h4>
+                        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                            چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                            تکنولوژی
+                            مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="faq-item mb-5">
+                        <h4 class='h5 font-weight-bold mb-3'>چگونه میتوانم سفارش دهم؟</h4>
+                        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                            چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                            تکنولوژی
+                            مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="faq-item mb-5">
+                        <h4 class='h5 font-weight-bold mb-3'>چگونه میتوانم سفارش دهم؟</h4>
+                        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                            چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                            تکنولوژی
+                            مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="news-letter">
+        <div class="container">
+            <div class="section-title mb-5 text-center">
+                <h1 class='h6'>خبرنامه</h1>
+                <h2 class='font-weight-bold text-white'>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم</h2>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-sm-10 col-md-8 col-lg-6">
+                    <form>
+                        <input type="email" placeholder="ایمیل خود را وارد کنید" class='w-100 border-0 text-muted'>
+                        <button>مشترک شوید</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact-us" class='section-padding'>
+        <div class="container">
+            <div class="section-title mb-5 text-center">
+                <h1 class='h6'>تماس با ما</h1>
+                <h2 class='font-weight-bold'>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم</h2>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="contact-form mb-5 mb-lg-0">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input type="text" placeholder="نام شما" class='w-100 mb-4'>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="email" placeholder="ایمیل شما" class='w-100 mb-4'>
+                                </div>
+                            </div>
+                            <input type="text" placeholder="موضوع" class='w-100 mb-4'>
+                            <textarea placeholder="پیام شما" class='w-100 mb-4'></textarea>
+                            <button class='px-5 py-2'>ارسال پیام</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="contact-info">
+                        <div class="address d-flex align-items-center mb-4">
+                            <span class='ml-3'><i class='fa fa-map-marked-alt'></i></span>
+                            <div>
+                                <h5 class='font-weight-bold'>آدرس</h5>
+                                <p>شیراز مرکز شهر سمت راست طبقه سوم پلاک 6</p>
+                            </div>
+                        </div>
+                        <div class="email d-flex align-items-center mb-4">
+                            <span class='ml-3'><i class='fa fa-envelope'></i></span>
+                            <div>
+                                <h5 class='font-weight-bold'>ایمیل</h5>
+                                <p>mohamadreza@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="phone d-flex align-items-center mb-4">
+                            <span class='ml-3'><i class='fa fa-phone'></i></span>
+                            <div>
+                                <h5 class='font-weight-bold'>تلفن</h5>
+                                <p>0713 - 8447466</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class='text-center text-white'>
+        <div class="footer-title mb-5">
+            <h2 class='h4 font-weight-bold mb-3'>PERFUME</h2>
+            <h5 class='h6'>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم</h5>
+        </div>
+        <div class="footer-social d-flex align-items-center justify-content-center">
+            <ul class='d-flex list-unstyled'>
+                <li class='ml-3'><a href="#"><span><i class='fab fa-instagram'></i></span></a></li>
+                <li class='ml-3'><a href="#"><span><i class='fab fa-facebook'></i></span></a></li>
+                <li class='ml-3'><a href="#"><span><i class='fab fa-youtube'></i></span></a></li>
+                <li class='ml-3'><a href="#"><span><i class='fab fa-twitter'></i></span></a></li>
+                <li class='ml-3'><a href="#"><span><i class='fab fa-linkedin-in'></i></span></a></li>
+            </ul>
+        </div>
+        <div class="copy-right mt-5 py-4">
+            <p>کلیه حقوق مادی و معنوی این وب سایت متعلق به محمدرضا محمدعلی پور می باشد.</p>
+        </div>
+    </footer>
+
+
+    <script src="js/script.js"></script>
+    <script src='./js/all.min.js'></script>
+    <script src='./js/jquery-3.6.0.min.js'></script>
+    <script src='./js/bootstrap.bundle.min.js'></script>
+    <script src='./js/owl.carousel.min.js'></script>
+    <script src='./js/script.js'></script>
+    <script src='./js/script2.js'></script>
+</body>
+
+</html>
